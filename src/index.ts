@@ -1,4 +1,5 @@
 let glMatrix: any;
+
 function main() {
   const canvas = document.querySelector('#glCanvas') as HTMLCanvasElement;
   const gl = canvas.getContext('webgl');
